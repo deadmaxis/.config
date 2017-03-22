@@ -1,0 +1,4 @@
+rm -rf .bashrc
+rm -rf .bash_profile 
+clear
+ls -la
