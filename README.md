@@ -1,0 +1,2 @@
+# .config
+backup doze figz
