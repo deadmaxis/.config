@@ -12,11 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1490170091,,"wq!"
+|2,0,1490182497,,"wq!"
+:q!
+|2,0,1490179863,,"q!"
 :w!
 |2,0,1490169761,,"w!"
-:q!
-|2,0,1490170072,,"q!"
 :!
 |2,0,0,,"!"
 
@@ -30,73 +30,203 @@
 
 # Registers:
 "1	CHAR	0
-	
-	
-	
-	
-	
-	
-	
-	
-	
-|3,0,1,0,9,0,1490169448,"","","","","","","","",""
+	# .config
+	backup doze figz
+	vv
+|3,0,1,0,3,0,1490180360,"# .config","backup doze figz","vv"
 "2	CHAR	0
 	
 	
 	
-|3,0,2,0,3,0,1490169439,"","",""
-"3	LINE	0
-	#export PATH
-|3,0,3,1,1,0,1490169397,"#export PATH"
+	
+	
+	
+	
+	
+	
+|3,0,2,0,9,0,1490169448,"","","","","","","","",""
+"3	CHAR	0
+	
+	
+	
+|3,0,3,0,3,0,1490169439,"","",""
 "4	LINE	0
-	#PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH" # Make sure to use double quotes not single quotes And on a new line
-|3,0,4,1,1,0,1490169395,"#PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH\" # Make sure to use double quotes not single quotes And on a new line"
+	#export PATH
+|3,0,4,1,1,0,1490169397,"#export PATH"
 "5	LINE	0
-	source ~/.bashrc
-|3,0,5,1,1,0,1490169389,"source ~/.bashrc"
+	#PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH" # Make sure to use double quotes not single quotes And on a new line
+|3,0,5,1,1,0,1490169395,"#PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH\" # Make sure to use double quotes not single quotes And on a new line"
 "6	LINE	0
-	[[ -z "$PS1" ]] && return
-|3,0,6,1,1,0,0,"[[ -z \"$PS1\" ]] && return"
+	source ~/.bashrc
+|3,0,6,1,1,0,1490169389,"source ~/.bashrc"
 "7	LINE	0
-	S# enable powerline
-|3,0,7,1,1,0,0,"S# enable powerline"
+	[[ -z "$PS1" ]] && return
+|3,0,7,1,1,0,0,"[[ -z \"$PS1\" ]] && return"
 "8	LINE	0
-	powerline-daemon -q
-|3,0,8,1,1,0,0,"powerline-daemon -q"
+	S# enable powerline
+|3,0,8,1,1,0,0,"S# enable powerline"
 "9	LINE	0
-	POWERLINE_BASH_CONTINUATION=1
-|3,0,9,1,1,0,0,"POWERLINE_BASH_CONTINUATION=1"
+	powerline-daemon -q
+|3,0,9,1,1,0,0,"powerline-daemon -q"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1490169744," "
+	h
+|3,1,36,0,1,0,1490182396,"h"
 
 # File marks:
-'0  5  10  ~/.bash_profile
-|4,48,5,10,1490170091,"~/.bash_profile"
-'1  1  0  ~/.bashrc
-|4,49,1,0,1490170072,"~/.bashrc"
-'2  4  0  ~/.bash_profile
-|4,50,4,0,1490169451,"~/.bash_profile"
-'3  4  0  ~/.bash_profile
-|4,51,4,0,1490169451,"~/.bash_profile"
-'4  1  7  ~/.bash_profile
-|4,52,1,7,1490169373,"~/.bash_profile"
-'5  1  7  ~/.bash_profile
-|4,53,1,7,1490169373,"~/.bash_profile"
-'6  1  7  ~/.bash_profile
-|4,54,1,7,1490169373,"~/.bash_profile"
-'7  1  7  ~/.bash_profile
-|4,55,1,7,1490169373,"~/.bash_profile"
-'8  8  0  ~/.bash_profile
-|4,56,8,0,0,"~/.bash_profile"
-'9  2  0  ~/.bash_profile
-|4,57,2,0,0,"~/.bash_profile"
+'0  5  44  ~/.config/README.md
+|4,48,5,44,1490182497,"~/.config/README.md"
+'1  16  0  ~/.vimrc
+|4,49,16,0,1490182155,"~/.vimrc"
+'2  12  5  ~/.config/README.md
+|4,50,12,5,1490180464,"~/.config/README.md"
+'3  12  5  ~/.config/README.md
+|4,51,12,5,1490180464,"~/.config/README.md"
+'4  1  0  ~/.config/.vimrc
+|4,52,1,0,1490179863,"~/.config/.vimrc"
+'5  5  10  ~/.bash_profile
+|4,53,5,10,1490170091,"~/.bash_profile"
+'6  1  0  ~/.bashrc
+|4,54,1,0,1490170072,"~/.bashrc"
+'7  4  0  ~/.bash_profile
+|4,55,4,0,1490169451,"~/.bash_profile"
+'8  4  0  ~/.bash_profile
+|4,56,4,0,1490169451,"~/.bash_profile"
+'9  1  7  ~/.bash_profile
+|4,57,1,7,1490169373,"~/.bash_profile"
 
 # Jumplist (newest first):
+-'  5  44  ~/.config/README.md
+|4,39,5,44,1490182497,"~/.config/README.md"
+-'  1  0  ~/.config/README.md
+|4,39,1,0,1490182361,"~/.config/README.md"
+-'  16  0  ~/.vimrc
+|4,39,16,0,1490182155,"~/.vimrc"
+-'  16  0  ~/.vimrc
+|4,39,16,0,1490182155,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1490180537,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1490180537,"~/.vimrc"
+-'  12  5  ~/.config/README.md
+|4,39,12,5,1490180464,"~/.config/README.md"
+-'  12  5  ~/.config/README.md
+|4,39,12,5,1490180464,"~/.config/README.md"
+-'  12  5  ~/.config/README.md
+|4,39,12,5,1490180464,"~/.config/README.md"
+-'  1  0  ~/.config/README.md
+|4,39,1,0,1490180304,"~/.config/README.md"
+-'  1  0  ~/.config/README.md
+|4,39,1,0,1490180304,"~/.config/README.md"
+-'  1  0  ~/.config/.vimrc
+|4,39,1,0,1490179863,"~/.config/.vimrc"
+-'  1  0  ~/.config/.vimrc
+|4,39,1,0,1490179863,"~/.config/.vimrc"
+-'  1  0  ~/.config/.vimrc
+|4,39,1,0,1490179863,"~/.config/.vimrc"
+-'  1  0  ~/.config/.vimrc
+|4,39,1,0,1490179863,"~/.config/.vimrc"
+-'  1  0  ~/.config/.vimrc
+|4,39,1,0,1490179863,"~/.config/.vimrc"
+-'  1  0  ~/.config/.vimrc
+|4,39,1,0,1490179863,"~/.config/.vimrc"
+-'  1  0  ~/.config/.vimrc
+|4,39,1,0,1490179863,"~/.config/.vimrc"
+-'  1  0  ~/.config/.vimrc
+|4,39,1,0,1490179863,"~/.config/.vimrc"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
+-'  5  10  ~/.bash_profile
+|4,39,5,10,1490170091,"~/.bash_profile"
 -'  5  10  ~/.bash_profile
 |4,39,5,10,1490170091,"~/.bash_profile"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1490170072,"~/.bashrc"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1490169697,"~/.bash_profile"
 -'  1  0  ~/.bash_profile
 |4,39,1,0,1490169697,"~/.bash_profile"
 -'  4  0  ~/.bash_profile
@@ -105,196 +235,90 @@
 |4,39,4,0,1490169451,"~/.bash_profile"
 -'  4  0  ~/.bash_profile
 |4,39,4,0,1490169451,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1490169387,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1490169387,"~/.bash_profile"
--'  1  7  ~/.bash_profile
-|4,39,1,7,1490169373,"~/.bash_profile"
--'  1  7  ~/.bash_profile
-|4,39,1,7,1490169373,"~/.bash_profile"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  3  0  ~/.bash_profile
-|4,39,3,0,0,"~/.bash_profile"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  2  0  ~/.bash_profile
-|4,39,2,0,0,"~/.bash_profile"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  8  0  ~/.bash_profile
-|4,39,8,0,0,"~/.bash_profile"
--'  6  0  ~/.bash_profile
-|4,39,6,0,0,"~/.bash_profile"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  13  98  ~/.bash_profile
-|4,39,13,98,0,"~/.bash_profile"
--'  11  98  ~/.bash_profile
-|4,39,11,98,0,"~/.bash_profile"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
--'  61  0  ~/.bashrc
-|4,39,61,0,0,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,0,"~/.bashrc"
--'  5  0  ~/.bashrc
-|4,39,5,0,0,"~/.bashrc"
--'  10  98  ~/.bash_profile
-|4,39,10,98,0,"~/.bash_profile"
--'  6  30  ~/.bashrc
-|4,39,6,30,0,"~/.bashrc"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1490169451,"~/.bash_profile"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/README.md
+	*	1490182496	0
+	"	5	44
+	^	5	45
+	.	5	11
+	+	12	5
+	+	2	0
+	+	1	1
+	+	2	0
+	+	3	19
+	+	2	8
+	+	12	5
+	+	5	11
+
+> ~/.vimrc
+	*	1490182153	0
+	"	16	0
+
+> ~/.config/.vimrc
+	*	1490179862	0
+	"	1	0
 
 > ~/.bash_profile
 	*	1490170089	0
@@ -371,10 +395,6 @@
 	.	38	0
 	+	39	107
 	+	38	0
-
-> ~/.vimrc
-	*	1490132615	0
-	"	1	0
 
 > ~/dotfiles/.vimrc
 	*	1490132575	0

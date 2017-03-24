@@ -273,3 +273,220 @@ tmux
 tmux attach
 exit
 tmux attach
+rtv
+vim .vimrc
+exit
+ranger
+exit
+brew install ranger
+htop
+clear
+cd .config/
+ls -la
+git status
+clear
+ls -la
+git status
+clear
+ls -la
+exit
+htop
+brew update
+brew search htop
+brew install htop
+sudo htop
+brew upgrade
+brew list
+brew show
+sudo pip install rtv
+rtv
+rtv
+sudo pip install rtv
+rtv
+sudo pip uninstall rtv
+pip install rtv
+rtv
+rtv
+pip show rtv
+ls -la /usr/local/lib/python2.7/site-packages/
+cd .config/
+ls -la
+cd .config/
+sudo cd .config/
+ls -la
+cd .config/
+sudo cd .config/
+ls -la
+rm -rf .config/
+sudo rm -rf .config/
+ls -la
+rtv
+rtv
+ls -la
+clear
+ls -la
+cd .config/
+ls -la
+clear
+cd ..
+ls-la
+ls -la
+clear
+ls -la
+clear
+ls -la
+brew install stow
+mkdir .config/vim
+mkdir .config/bash
+mkdir .config/tmux
+mv .viminfo .vimrc ~/.config/vim/
+mv .bash_profile .bash_history .bash_sessions/ .bashrc ~/.config/bash/
+mv .tmux.conf ~/.config/tmux/
+ls -la
+cd .config/
+ls-la
+ls -la
+sudo stow bash
+ls -la
+cd ~
+ls la
+ls -la
+cd .config/
+cd ..
+cd .config/
+ls -l
+cd bash/
+ls 
+ls -la
+cd ..
+cd ..
+rm .bash_history 
+ls -la
+cd .config/
+ls -la bash/
+cd ..
+rm .bash_profile .bash_sessions .bashrc
+cd .config/
+stow bash
+stow tmux
+stow vim
+ls -la
+cd ..
+clear
+ls -la
+tmux detach
+cd .config/
+clear
+ls-la
+ls-la
+ls -la
+clear
+git init
+ls -la
+clear
+ls-la
+ls -la
+git add .
+git status
+git commit -m 'initial commit'
+git config --global user.email "oscarzetaacosta1974@gmail.com"
+git config --global user.name "deadmaxis"
+git commit -m 'initial commit'
+git add remote origin https://github.com/deadmaxis/.config.git
+git add remote https://github.com/deadmaxis/.config.git
+git push
+git remote add .config https://github.com/deadmaxis/.config.git
+git remote add https://github.com/deadmaxis/.config.git
+git remote add origin https://github.com/deadmaxis/.config.git
+git push origin master
+git pull
+ls -la
+git pull https://github.com/deadmaxis/.config.git master
+ls -la
+git push origin master
+ls -la
+git remote add https://github.com/deadmaxis/.config.git
+git remote add -f master https://github.com/deadmaxis/.config.git
+git push origin master
+git pull origin master
+git push
+git push --set-upstream origin master
+git pull origin master
+git pull
+git pull https://github.com/deadmaxis/.config.git
+cd ..
+mv .config/ .config2/
+git clone https://github.com/deadmaxis/.config.git
+mv .config2/vim/ .config2/tmux/ .config2/bash/ ~/.config/
+ls -la
+cd .config2
+ls
+ls -la
+mv rtv/ ~/.config/
+cd ..
+rm -rf .config2/
+ls-la
+ls -la
+cd .config/
+ls -la
+git status
+clear
+ls -la
+cat README.md 
+tmux dettach
+tmux detach
+rtv
+vim .vimrc
+cd .
+cd ..
+clear
+ls-la
+la -l
+clear
+ls -la
+cd .gitconfig 
+cd .gitconfig 
+lcear
+lcear
+clear
+less .gitconfig 
+clear
+cd .config/
+ls -la
+git status
+git add .
+git commit -m 'Initial commit, added first figs'
+git push origin master
+git status
+git log
+clear
+ls -la
+vim README.md 
+cat README.md 
+git status
+git add README.md
+git commit -m 'added content to readme'
+git push origin master
+git status
+ls-la
+ls -la
+vim README.md 
+git status
+git add README.md 
+git commit -m 'updated screeny'
+git push origin master
+cd ~
+clear
+ls-la
+clear
+ls -la
+mv .viminfo ~/.config/vim/
+cd .config/
+stow vim
+ls -la
+cd ..
+ls -la
+rm ~/Desktop/Screen\ Shot\ 2017-03-22\ at\ 10.28.56\ pm.png 
+rebootr
+sudo reboor
+sudo reboot
