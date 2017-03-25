@@ -1,5 +1,3 @@
-ls -lah ~/Desktop/
-mv ~/Desktop/ubuntu.dmg ~/Downloads/
 ls
 ls -la
 cd .Trash/
@@ -497,4 +495,6 @@ cd ..
 ls -la
 chsh -s /bin/zsh 
 chsh -s /bin/zsh 
+exit
+vim .zshrc
 exit
