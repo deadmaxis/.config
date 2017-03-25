@@ -1,21 +1,3 @@
-l
-ls -la
-clear
-l
-clear
-clear
-clear
-clear
-l
-l
-ls -la
-clear
-ls -la
-mv ~/Desktop/.clear
-l
-cler
-clear
-ls -la ~/Desktop/
 ls -lah ~/Desktop/
 mv ~/Desktop/ubuntu.dmg ~/Downloads/
 ls
@@ -490,3 +472,29 @@ rm ~/Desktop/Screen\ Shot\ 2017-03-22\ at\ 10.28.56\ pm.png
 rebootr
 sudo reboor
 sudo reboot
+ls -la
+cd .config/
+git status
+git add bash/.bash_history vim/.viminfo 
+git diff
+git diff vim/.viminfo 
+git commit -m 'update to subsequent files'
+git push origin master
+git status
+reboot
+sudo reboot
+ls -la
+mkdir /Volumes/efi
+sudo mkdir /Volumes/efi
+sudo mount -t msdos /dev/disk0s1 /Volumes/efi/
+sudo reboot
+tmux attach
+tmux attach
+mv .zsh_history ~/.config/zsh/
+cd .config/
+stow zsh
+cd ..
+ls -la
+chsh -s /bin/zsh 
+chsh -s /bin/zsh 
+exit
