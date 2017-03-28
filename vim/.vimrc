@@ -44,6 +44,7 @@ set foldmethod=indent                       " fold based on indent level
 " }}}
 
 " movement {{{
+set backspace=indent,eol,start
 nnoremap j gj                               " move vertically by visual line
 nnoremap k gk                               
 nnoremap B ^                                " move to beginning/end of line

@@ -1,22 +1,3 @@
-ls
-ls -la
-cd .Trash/
-l
-ls
-ls -la
-cd ..
-l
-ls -la
-clear
-ls -la
-cd Downloads/
-l
-ls -la
-cd /Applications/
-ls
-mv ~/Downloads/iTerm.app/ .
-ls -la
-iTerm
 cd Downloads/
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
@@ -498,3 +479,22 @@ chsh -s /bin/zsh
 exit
 vim .zshrc
 exit
+cd .config/
+pwd
+ls -la
+exit
+tmux attach
+tmux attach
+tmux
+clear
+exit
+rtv
+ls -lah
+ping google.com
+mv Downloads/giphy.gif ~/Pictures/
+cd ..
+cd ~
+zsh --version
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+tmux
+zsh
