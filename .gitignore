@@ -36,7 +36,9 @@
 ehthumbs.db
 Thumbs.db
 
-
+.zsh_history
+.viminfo
+.bash_history
 
 
 
