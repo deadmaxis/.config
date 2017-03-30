@@ -1,10 +1,3 @@
-cd Downloads/
-git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
-git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew doctor
-brew search python
-pip install --user powerline-status
 brew install python
 pip install --upgrade pip setuptools
 pip install --user powerline-status
@@ -497,4 +490,11 @@ cd ~
 zsh --version
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 tmux
+zsh
+pwd
+rm ~/.zsh_history 
+stow zsh
+zsh
+mv ~/.viminfo ~/.config/vim/
+stow vim
 zsh

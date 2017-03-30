@@ -10,17 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<version_string\>
+
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1490575045,,"wq!"
+|2,0,1490857500,,"wq!"
 :q!
-|2,0,1490574919,,"q!"
+|2,0,1490697545,,"q!"
 :w!
 |2,0,1490482309,,"w!"
 :!
 |2,0,0,,"!"
 
 # Search String History (newest to oldest):
+? \<version_string\>
+|2,1,1490697442,,"\\<version_string\\>"
 
 # Expression History (newest to oldest):
 
@@ -29,277 +34,309 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	CHAR	0
-	
-	
-	
-	
-|3,0,1,0,4,0,1490574521,"","","",""
+""1	LINE	0
+	#source "/home/deadmaxis/.local/lib/python2.7/site-packages/powerline/bindings/tmux/powerline.conf"
+|3,1,1,1,1,0,1490856733,"#source \"/home/deadmaxis/.local/lib/python2.7/site-packages/powerline/bindings/tmux/powerline.conf\""
 "2	CHAR	0
+	
+	
+	
+	
+|3,0,2,0,4,0,1490574521,"","","",""
+"3	CHAR	0
 	# .config
 	backup doze figz
 	vv
-|3,0,2,0,3,0,1490180360,"# .config","backup doze figz","vv"
-"3	CHAR	0
-	
-	
-	
-	
-	
-	
-	
-	
-	
-|3,0,3,0,9,0,1490169448,"","","","","","","","",""
+|3,0,3,0,3,0,1490180360,"# .config","backup doze figz","vv"
 "4	CHAR	0
 	
 	
 	
-|3,0,4,0,3,0,1490169439,"","",""
-"5	LINE	0
-	#export PATH
-|3,0,5,1,1,0,1490169397,"#export PATH"
+	
+	
+	
+	
+	
+	
+|3,0,4,0,9,0,1490169448,"","","","","","","","",""
+"5	CHAR	0
+	
+	
+	
+|3,0,5,0,3,0,1490169439,"","",""
 "6	LINE	0
-	#PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH" # Make sure to use double quotes not single quotes And on a new line
-|3,0,6,1,1,0,1490169395,"#PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH\" # Make sure to use double quotes not single quotes And on a new line"
+	#export PATH
+|3,0,6,1,1,0,1490169397,"#export PATH"
 "7	LINE	0
-	source ~/.bashrc
-|3,0,7,1,1,0,1490169389,"source ~/.bashrc"
+	#PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH" # Make sure to use double quotes not single quotes And on a new line
+|3,0,7,1,1,0,1490169395,"#PATH=\"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH\" # Make sure to use double quotes not single quotes And on a new line"
 "8	LINE	0
-	[[ -z "$PS1" ]] && return
-|3,0,8,1,1,0,0,"[[ -z \"$PS1\" ]] && return"
+	source ~/.bashrc
+|3,0,8,1,1,0,1490169389,"source ~/.bashrc"
 "9	LINE	0
-	S# enable powerline
-|3,0,9,1,1,0,0,"S# enable powerline"
-""-	CHAR	0
-	#
-|3,1,36,0,1,0,1490574753,"#"
+	[[ -z "$PS1" ]] && return
+|3,0,9,1,1,0,0,"[[ -z \"$PS1\" ]] && return"
+"-	CHAR	0
+	'
+|3,0,36,0,1,0,1490697585,"'"
 
 # File marks:
-'0  29  62  ~/.vimrc
-|4,48,29,62,1490575045,"~/.vimrc"
-'1  37  0  ~/.tmux.conf
-|4,49,37,0,1490574919,"~/.tmux.conf"
-'2  1  0  ~/.vimrc
-|4,50,1,0,1490574864,"~/.vimrc"
-'3  1  0  ~/.vimrc
-|4,51,1,0,1490574864,"~/.vimrc"
-'4  29  83  ~/.vimrc
-|4,52,29,83,1490574858,"~/.vimrc"
-'5  31  9  ~/.vimrc
-|4,53,31,9,1490574858,"~/.vimrc"
-'6  31  9  ~/.vimrc
-|4,54,31,9,1490574858,"~/.vimrc"
-'7  37  0  ~/.tmux.conf
-|4,55,37,0,1490574758,"~/.tmux.conf"
-'8  47  29  ~/.vimrc
-|4,56,47,29,1490574729,"~/.vimrc"
-'9  47  29  ~/.vimrc
-|4,57,47,29,1490574729,"~/.vimrc"
+'0  41  45  ~/.tmux.conf
+|4,48,41,45,1490857500,"~/.tmux.conf"
+'1  41  0  ~/.tmux.conf
+|4,49,41,0,1490857292,"~/.tmux.conf"
+'2  36  1  ~/.tmux.conf
+|4,50,36,1,1490856972,"~/.tmux.conf"
+'3  36  1  ~/.tmux.conf
+|4,51,36,1,1490856972,"~/.tmux.conf"
+'4  36  1  ~/.tmux.conf
+|4,52,36,1,1490856972,"~/.tmux.conf"
+'5  36  1  ~/.tmux.conf
+|4,53,36,1,1490856972,"~/.tmux.conf"
+'6  38  30  ~/.tmux.conf
+|4,54,38,30,1490856754,"~/.tmux.conf"
+'7  41  30  ~/.tmux.conf
+|4,55,41,30,1490856754,"~/.tmux.conf"
+'8  38  30  ~/.tmux.conf
+|4,56,38,30,1490856754,"~/.tmux.conf"
+'9  38  30  ~/.tmux.conf
+|4,57,38,30,1490856754,"~/.tmux.conf"
 
 # Jumplist (newest first):
--'  29  62  ~/.vimrc
-|4,39,29,62,1490575045,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490575008,"~/.vimrc"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574919,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574919,"~/.tmux.conf"
+-'  41  45  ~/.tmux.conf
+|4,39,41,45,1490857500,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574898,"~/.tmux.conf"
+|4,39,1,0,1490857473,"~/.tmux.conf"
+-'  41  0  ~/.tmux.conf
+|4,39,41,0,1490857292,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574898,"~/.tmux.conf"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574864,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574864,"~/.vimrc"
--'  31  9  ~/.vimrc
-|4,39,31,9,1490574858,"~/.vimrc"
--'  31  9  ~/.vimrc
-|4,39,31,9,1490574858,"~/.vimrc"
--'  31  9  ~/.vimrc
-|4,39,31,9,1490574858,"~/.vimrc"
--'  31  9  ~/.vimrc
-|4,39,31,9,1490574858,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574831,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574831,"~/.vimrc"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574758,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574758,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574758,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574758,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574758,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574758,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574758,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574758,"~/.tmux.conf"
+|4,39,1,0,1490857101,"~/.tmux.conf"
+-'  36  1  ~/.tmux.conf
+|4,39,36,1,1490856972,"~/.tmux.conf"
+-'  36  1  ~/.tmux.conf
+|4,39,36,1,1490856972,"~/.tmux.conf"
+-'  36  1  ~/.tmux.conf
+|4,39,36,1,1490856972,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574748,"~/.tmux.conf"
+|4,39,1,0,1490856955,"~/.tmux.conf"
+-'  38  30  ~/.tmux.conf
+|4,39,38,30,1490856754,"~/.tmux.conf"
+-'  38  30  ~/.tmux.conf
+|4,39,38,30,1490856754,"~/.tmux.conf"
+-'  41  30  ~/.tmux.conf
+|4,39,41,30,1490856754,"~/.tmux.conf"
+-'  38  30  ~/.tmux.conf
+|4,39,38,30,1490856754,"~/.tmux.conf"
 -'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574748,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574748,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574748,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574748,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574748,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574748,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574748,"~/.tmux.conf"
--'  47  29  ~/.vimrc
-|4,39,47,29,1490574729,"~/.vimrc"
--'  52  29  ~/.vimrc
-|4,39,52,29,1490574729,"~/.vimrc"
--'  52  29  ~/.vimrc
-|4,39,52,29,1490574729,"~/.vimrc"
--'  52  29  ~/.vimrc
-|4,39,52,29,1490574729,"~/.vimrc"
--'  52  29  ~/.vimrc
-|4,39,52,29,1490574729,"~/.vimrc"
--'  52  29  ~/.vimrc
-|4,39,52,29,1490574729,"~/.vimrc"
--'  52  29  ~/.vimrc
-|4,39,52,29,1490574729,"~/.vimrc"
--'  52  29  ~/.vimrc
-|4,39,52,29,1490574729,"~/.vimrc"
--'  52  29  ~/.vimrc
-|4,39,52,29,1490574729,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574704,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574704,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574704,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574704,"~/.vimrc"
--'  48  0  ~/.vimrc
-|4,39,48,0,1490574702,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1490574702,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1490574702,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1490574702,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1490574702,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1490574702,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1490574702,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1490574702,"~/.vimrc"
--'  53  0  ~/.vimrc
-|4,39,53,0,1490574702,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574469,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574469,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574469,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1490574469,"~/.vimrc"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  37  0  ~/.tmux.conf
-|4,39,37,0,1490574327,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1490574319,"~/.tmux.conf"
+|4,39,1,0,1490856723,"~/.tmux.conf"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  76  42  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,76,42,1490697595,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697567,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  78  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,78,0,1490697545,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  1  0  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,1,0,1490697531,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  27  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,27,1490697487,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  27  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,27,1490697487,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  27  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,27,1490697487,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  27  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,27,1490697487,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  27  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,27,1490697487,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  27  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,27,1490697487,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
+-'  77  27  ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+|4,39,77,27,1490697487,"~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/.tmux.conf
+	*	1490857499	0
+	"	41	45
+	^	41	46
+	.	41	46
+	+	41	107
+	+	40	31
+	+	41	0
+	+	40	31
+	+	40	0
+	+	40	31
+	+	41	0
+	+	37	47
+	+	36	1
+	+	41	46
+
+> ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/tmux/__init__.py
+	*	1490697592	0
+	"	76	42
+	^	76	43
+	.	77	0
+	+	76	44
+	+	77	0
+	+	76	49
+	+	76	70
+	+	76	42
+	+	77	0
+
+> ~/.config/.tmu
+	*	1490696141	0
+	"	1	0
 
 > ~/.vimrc
 	*	1490575042	0
@@ -316,17 +353,6 @@
 	+	48	0
 	+	29	83
 	+	30	0
-
-> ~/.tmux.conf
-	*	1490574917	0
-	"	37	0
-	^	37	1
-	.	37	0
-	+	39	107
-	+	38	0
-	+	39	0
-	+	38	0
-	+	37	0
 
 > ~/.config/.gitignore
 	*	1490483011	0
