@@ -1,0 +1,11 @@
+add ~/Music/
+colorscheme green
+colorscheme solarized-dark
+colorscheme night
+colorscheme green-mono-88
+colorscheme gray-88
+colorscheme cyan
+colorscheme default
+clear
+add ~/Movies/
+colorscheme zenburn
