@@ -95,10 +95,18 @@
 /Users/deadmaxis/Music/Jamiroquai/Automaton/10 We Can Do It.mp3
 /Users/deadmaxis/Music/Jamiroquai/Automaton/11 Vitamin.mp3
 /Users/deadmaxis/Music/Jamiroquai/Automaton/12 Carla.mp3
-/Users/deadmaxis/Music/John Mayer/The Search for Everything_ Wave One/01 Moving on and Getting Over.mp3
-/Users/deadmaxis/Music/John Mayer/The Search for Everything_ Wave One/02 Changing.mp3
-/Users/deadmaxis/Music/John Mayer/The Search for Everything_ Wave One/03 Love on the Weekend.mp3
-/Users/deadmaxis/Music/John Mayer/The Search for Everything_ Wave One/04 You’re Gonna Live Forever in Me.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/01 Still Feel Like Your Man.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/02 Emoji of a Wave.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/03 Helpless.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/04 Love on the Weekend.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/05 In the Blood.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/06 Changing.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/07 Theme from _The Search for Everything_.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/08 Moving on and Getting Over.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/09 Never on the Day You Leave.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/10 Rosie.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/11 Roll It on Home.mp3
+/Users/deadmaxis/Music/John Mayer/The Search for Everything/12 You're Gonna Live Forever in Me.mp3
 /Users/deadmaxis/Music/Kanye West/The Life of Pablo/01 Ultralight Beam.mp3
 /Users/deadmaxis/Music/Kanye West/The Life of Pablo/02 Father Stretch My Hands, Pt. 1.mp3
 /Users/deadmaxis/Music/Kanye West/The Life of Pablo/03 Pt. 2.mp3
@@ -117,6 +125,43 @@
 /Users/deadmaxis/Music/Kanye West/The Life of Pablo/16 No More Parties in LA.mp3
 /Users/deadmaxis/Music/Kanye West/The Life of Pablo/17 Facts (Charlie Heat version).mp3
 /Users/deadmaxis/Music/Kanye West/The Life of Pablo/18 Fade.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/01 C.O.T.E_.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/02 Themata.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/03 Shutterspeed.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/04 Fear of the Sky.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/05 Roquefort.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/06 L1FEL1KE.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/07 Scarabs.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/08 Sewn and Silent.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/09 Mauseum.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/10 Synops.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/11 Omitted for Clarity.mp3
+/Users/deadmaxis/Music/Karnivool/Themata/12 Change, Part 1.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/01 Simple Boy.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/02 Goliath.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/03 New Day.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/04 Set Fire to the Hive.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/05 Umbra.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/06 All I Know.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/07 The Medicine Wears Off.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/08 The Caudal Lure.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/09 Illumine.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/10 Deadman.mp3
+/Users/deadmaxis/Music/Karnivool/Sound Awake/11 Change.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/01 Aum.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/02 Nachash.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/03 A.M. War.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/04 We Are.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/05 The Refusal.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/06 Aeons.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/07 Asymmetry.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/08 Eidolon.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/09 Sky Machine.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/10 Amusia.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/11 The Last Few.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/12 Float.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/13 Alpha Omega.mp3
+/Users/deadmaxis/Music/Karnivool/Asymmetry/14 Om.mp3
 /Users/deadmaxis/Music/Kendrick Lamar/good kid, m.A.A.d city/01 Sherane a.k.a. Master Splinter’s Daughter.mp3
 /Users/deadmaxis/Music/Kendrick Lamar/good kid, m.A.A.d city/02 Bitch, Don’t Kill My Vibe.mp3
 /Users/deadmaxis/Music/Kendrick Lamar/good kid, m.A.A.d city/03 Backseat Freestyle.mp3
@@ -604,6 +649,29 @@
 /Users/deadmaxis/Music/Thundercat/Apocalypse/10 Evangelion.mp3
 /Users/deadmaxis/Music/Thundercat/Apocalypse/11 We'll Die.mp3
 /Users/deadmaxis/Music/Thundercat/Apocalypse/12 A Message for Austin _ Praise the Lord _ Enter the Void.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/01 Rabbot Ho.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/02 Captain Stupido.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/03 Uh Uh.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/04 Bus in These Streets.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/05 A Fan's Mail (Tron Song Suite II).mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/06 Lava Lamp.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/07 Jethro.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/08 Day & Night.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/09 Show You the Way.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/10 Walk on By.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/11 Blackkk.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/12 Tokyo.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/13 Jameel's Space Ride.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/14 Friend Zone.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/15 Them Changes.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/16 Where I'm Going.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/17 Drink Dat.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/18 Inferno.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/19 I Am Crazy.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/20 3AM.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/21 Drunk.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/22 The Turn Down.mp3
+/Users/deadmaxis/Music/Thundercat/Drunk/23 DUI.mp3
 /Users/deadmaxis/Music/Tool/Undertow/01 Intolerance.mp3
 /Users/deadmaxis/Music/Tool/Undertow/02 Prison Sex.mp3
 /Users/deadmaxis/Music/Tool/Undertow/03 Sober.mp3

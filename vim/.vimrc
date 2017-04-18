@@ -22,7 +22,7 @@ set expandtab			                    " tabs are spaces
 set number 		    	                    " show line numbers
 set relativenumber		                    " make line no. relevant
 set showcmd		    	                    " show command in bottom bar
-set cursorline			                    " highlight current line
+"set cursorline			                    " highlight current line
 filetype indent on		                    " load file-specific indent files
 set wildmenu			                    " visual autocomplete for command menu
 set lazyredraw 			                    " redraw only when we need to
@@ -45,18 +45,18 @@ set foldmethod=indent                       " fold based on indent level
 
 " movement {{{
 set backspace=indent,eol,start
-nnoremap j gj                               " move vertically by visual line
-nnoremap k gk                               
-nnoremap B ^                                " move to beginning/end of line
-nnoremap E $                                
-nnoremap $ <nop>                            " $/^ doesn't do anything
-nnoremap ^ <nop>                            
-nnoremap gV `[v`]                           " highlight last inserted text
+"nnoremap j gj                               " move vertically by visual line
+"nnoremap k gk                               
+"nnoremap B ^                                " move to beginning/end of line
+"nnoremap E $                                
+"nnoremap $ <nop>                            " $/^ doesn't do anything
+"nnoremap ^ <nop>                            
+"nnoremap gV `[v`]                           " highlight last inserted text
 " }}}
 
 " leader shortcuts {{{
 let mapleader=","                           " leader is comma
-inoremap jk <esc>                           " jk is escape
+"nnoremap jk <esc>                           " jk is escape
 nnoremap <leader>u :GundoToggler<CR>        " toggler gundo
 nnoremap <leader>ev :vsp ~/.vimrc<CR>       " edit vimrc/zshrc and load bindings
 nnoremap <leader>ez :vsp ~/.zshrc<CR>
